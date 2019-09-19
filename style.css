@@ -1,0 +1,84 @@
+
+html {
+    width:100%;
+    height:100%;
+    overflow: auto;
+}
+
+body {
+    background-image: url(image/background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    overflow: auto;
+    position: absolute;
+}
+
+#mainDiv{
+    position: absolute;
+    width: 1024px;
+    height: 768px;
+
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    margin: auto;
+    padding: 0;
+}
+
+#dialogWindow{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 1024px;
+    height: 791px;
+    z-index: 1;
+    opacity: 1;
+}
+
+#infoWindow{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 800px;
+    height: 100px;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+#itemWindow{
+     position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 776px;
+    height: 497px;
+    margin: auto;
+    z-index: 2;
+    opacity: 1;
+}
+
+#zeroButton{
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+    opacity: 1;
+}
